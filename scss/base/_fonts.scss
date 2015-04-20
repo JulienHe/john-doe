@@ -1,0 +1,22 @@
+/*
+
+14/03/2015 | J. Henrotte
+© Aroe - All rights reserved
+_fonts.scss
+Fonts for the Welcome Spring Festival
+
+*/
+
+@import url(http://fonts.googleapis.com/css?family=Lato:100,300,400,700,100italic,300italic,400italic,700italic);
+@import url(http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600,300italic,400italic,600italic);
+
+$base-family           :      "Source Sans Pro";
+$base-family-light     :      300;
+$base-family-regular   :      400;
+$base-family-semibold  :      600;
+
+$title-family          :      "Lato";
+$title-family-thin     :      100;
+$title-family-light    :      300;
+$title-family-regular  :      400;
+$title-family-bold     :      700;

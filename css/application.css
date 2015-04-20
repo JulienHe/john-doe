@@ -1,0 +1,615 @@
+@charset "UTF-8";
+/*
+
+14/03/2015 | J. Henrotte
+application.scss
+Importation of all scss files
+	-> Output css/application.css
+
+*/
+@import url(http://fonts.googleapis.com/css?family=Lato:100,300,400,700,100italic,300italic,400italic,700italic);
+@import url(http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600,300italic,400italic,600italic);
+@import url(http://fonts.googleapis.com/css?family=Maven+Pro:400,500,700,900);
+@import url(http://fonts.googleapis.com/css?family=Montserrat);
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
+  font-size: 100%;
+  vertical-align: baseline; }
+
+html {
+  line-height: 1; }
+
+ol, ul {
+  list-style: none; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+caption, th, td {
+  text-align: left;
+  font-weight: normal;
+  vertical-align: middle; }
+
+q, blockquote {
+  quotes: none; }
+  q:before, q:after, blockquote:before, blockquote:after {
+    content: "";
+    content: none; }
+
+a img {
+  border: none; }
+
+article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary {
+  display: block; }
+
+/*
+
+14/03/2015 | J. Henrotte
+© Aroe - All rights reserved
+_vars.scss
+Variables for the the Welcome Spring Festival
+
+*/
+/*
+
+14/03/2015 | J. Henrotte
+© Aroe - All rights reserved
+_mixins.scss
+Mixins for the Welcome Spring Festival
+
+*/
+/* Breakpoin mixins
+
+	Usage :
+	@include screen-large{
+		property : value;
+	}
+
+*/
+/*
+
+	Font-size REM + Callback PX
+	Usage :
+	 @include font-size(value);
+
+*/
+/*
+
+	Border radius mixins (4 corners)
+	Usage :
+	@include border-radius(value)
+
+*/
+/*
+
+	Opacity mixins (I8- Compatible)
+	Usage :
+	@include opacity(value);
+
+*/
+/*
+
+	Center block
+	Usage :
+	@include center-block;
+
+*/
+/*
+
+	Text-truncate
+	Usage :
+	@include texte-truncate
+
+*/
+/*
+
+	Translate mixin
+	@include translate(x, y)
+
+*/
+/*
+
+	Translate mixin
+	@include transform();
+
+*/
+/*
+
+	Animation mixins
+
+
+*/
+/*
+	Keyframe animation
+*/
+/*
+
+14/03/2015 | J. Henrotte
+© Aroe - All rights reserved
+_placeholder.scss
+Placeholders for the Welcome Spring Festival
+
+*/
+/*
+
+14/03/2015 | J. Henrotte
+© Aroe - All rights reserved
+_fonts.scss
+Fonts for the Welcome Spring Festival
+
+*/
+@font-face {
+  font-family: "figozaurus";
+  src: url("../fonts/figozaurus.eot");
+  src: url("../fonts/figozaurus.eot?#iefix") format("embedded-opentype"), url("../fonts/figozaurus.woff") format("woff"), url("../fonts/figozaurus.ttf") format("truetype"), url("../fonts/figozaurus.svg#figozaurus") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+[data-icon]:before {
+  font-family: "figozaurus" !important;
+  content: attr(data-icon);
+  font-style: normal !important;
+  font-weight: normal !important;
+  font-variant: normal !important;
+  text-transform: none !important;
+  speak: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale; }
+
+[class^="figo-"]:before,
+[class*=" figo-"]:before {
+  font-family: "figozaurus" !important;
+  font-style: normal !important;
+  font-weight: normal !important;
+  font-variant: normal !important;
+  text-transform: none !important;
+  speak: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale; }
+
+.figo-social-facebook:before {
+  content: "a"; }
+
+.figo-social-twitter:before {
+  content: "b"; }
+
+.figo-social-instagram:before {
+  content: "c"; }
+
+.figo-soundcloud:before {
+  content: "d"; }
+
+.figo-social-youtube:before {
+  content: "e"; }
+
+/*
+
+14/03/2015 | J. Henrotte
+© Aroe - All rights reserved
+_typography.scss
+Typography for the Welcome Spring Festival
+
+*/
+body {
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  font-family: "Source Sans Pro";
+  font-size: 62.5%;
+  font-weight: 400;
+  line-height: 1.4;
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.004); }
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Lato";
+  color: #222629; }
+
+p {
+  font-family: "Source Sans Pro";
+  font-weight: 400;
+  color: #8C8C8C; }
+
+/*
+
+14/03/2015 | J. Henrotte
+© Aroe - All rights reserved
+_base.scss
+Basic reset for the Welcome Spring Festival
+
+*/
+/* Border box code to manage sizes */
+body {
+  font-family: 'Montserrat', sans-serif;
+  background-color: #1E2538;
+  padding-top: 100px; }
+
+h1, h2, h3, h4 {
+  font-family: 'Montserrat', sans-serif; }
+
+input {
+  font-family: 'Montserrat', sans-serif; }
+
+*,
+:after,
+:before {
+  -moz-box-sizing: border-box;
+  -webkit-tap-highlight-color: transparent;
+  box-sizing: border-box;
+  word-wrap: break-word;
+  outline: 0; }
+
+hr {
+  border: 0;
+  border-top: 1px solid #1E2538;
+  margin: 10px 0; }
+
+a {
+  text-decoration: none; }
+
+/* Selection color */
+::-moz-selection {
+  /* Code for Firefox */
+  color: #1E2538;
+  background: #000000; }
+
+::selection {
+  color: #1E2538;
+  background: #000000; }
+
+.wrapper {
+  width: 100%;
+  max-width: 1140px;
+  padding: 10px;
+  margin: 0 auto;
+  clear: both; }
+
+.overflow--hide {
+  overflow: hidden; }
+
+/*
+
+14/03/2015 | J. Henrotte
+© Aroe - All rights reserved
+_button.scss
+Button for the Welcome Spring Festival
+
+*/
+/*
+
+14/03/2015 | J. Henrotte
+© Aroe - All rights reserved
+_input.scss
+Input
+
+*/
+/* Input & Textarea */
+input, textarea {
+  outline: 0; }
+  input.form--error, textarea.form--error {
+    border-color: #F94747 !important;
+    background-color: rgba(249, 71, 71, 0.05); }
+  input.form--accept, textarea.form--accept {
+    border-color: #34CB60 !important;
+    background-color: rgba(52, 203, 96, 0.05); }
+
+textarea {
+  /* Modal BG 2: */
+  background: #FEFEFE;
+  border: 1px solid #1E2538;
+  -webkit-border-radius: 4px;
+  border-radius: 4px;
+  -webkit-background-clip: padding-box;
+  -moz-background-clip: padding;
+  background-clip: padding-box;
+  width: 100%;
+  resize: none;
+  font-family: "Source Sans Pro";
+  font-size: 18px;
+  font-size: 1.125rem;
+  padding: 5px 10px;
+  font-style: italic; }
+
+/* Change the placeholder color */
+::-webkit-input-placeholder {
+  color: #AAADB4; }
+
+:-moz-placeholder {
+  /* Firefox 18- */
+  color: #AAADB4; }
+
+::-moz-placeholder {
+  /* Firefox 19+ */
+  color: #AAADB4; }
+
+:-ms-input-placeholder {
+  color: #AAADB4; }
+
+/* When input is focus -> Hide the placeholder */
+input:focus::-webkit-input-placeholder {
+  color: transparent; }
+
+input:focus:-moz-placeholder {
+  color: transparent; }
+
+input:focus::-moz-placeholder {
+  color: transparent; }
+
+input:focus:-ms-input-placeholder {
+  color: transparent; }
+
+/*
+
+28/03/2015 | J. Henrotte
+© Aroe - All rights reserved
+_animation.scss
+Mixins for the Welcome Spring Festival
+
+*/
+/* 
+
+Animate.css - http://daneden.me/animate
+Licensed under the MIT license - http://opensource.org/licenses/MIT
+Copyright (c) 2015 Daniel Eden
+
+*/
+.wow:first-child {
+  visibility: hidden; }
+
+.animated {
+  animation-duration: 1s;
+  animation-fill-mode: both;
+  -webkit-animation-duration: 1s;
+  -webkit-animation-fill-mode: both; }
+
+.animated.infinite {
+  animation-iteration-count: infinite;
+  -webkit-animation-iteration-count: infinite; }
+
+.animated.hinge {
+  animation-duration: 2s;
+  -webkit-animation-duration: 2s; }
+
+.animated.bounceIn,
+.animated.bounceOut {
+  animation-duration: .75s;
+  -webkit-animation-duration: .75s; }
+
+.animated.flipOutX,
+.animated.flipOutY {
+  animation-duration: .75s;
+  -webkit-animation-duration: .75s; }
+
+.fadeInUp {
+  animation-name: fadeInUp;
+  -webkit-animation-name: fadeInUp; }
+
+@-webkit-keyframes fadeInUp {
+  0% {
+    opacity: 0;
+    transform: translate3d(0, 200px, 0); }
+  100% {
+    opacity: 1;
+    transform: none; } }
+@keyframes fadeInUp {
+  0% {
+    opacity: 0;
+    transform: translate3d(0, 200px, 0); }
+  100% {
+    opacity: 1;
+    transform: none; } }
+.fadeInUpSkew {
+  animation-name: fadeInUp;
+  -webkit-animation-name: fadeInUp; }
+  @media only screen and (min-width: 44em) {
+    .fadeInUpSkew {
+      animation-name: fadeInUpSkew;
+      -webkit-animation-name: fadeInUpSkew; } }
+
+@-webkit-keyframes fadeInUpSkew {
+  0% {
+    opacity: 0;
+    -o-transform: skew(0, -20deg) translate3d(0, 200px, 0);
+    -ms-transform: skew(0, -20deg) translate3d(0, 200px, 0);
+    -webkit-transform: skew(0, -20deg) translate3d(0, 200px, 0);
+    transform: skew(0, -20deg) translate3d(0, 200px, 0); }
+  100% {
+    opacity: 1;
+    -o-transform: skew(0, -20deg) translate3d(0, 0px, 0);
+    -ms-transform: skew(0, -20deg) translate3d(0, 0px, 0);
+    -webkit-transform: skew(0, -20deg) translate3d(0, 0px, 0);
+    transform: skew(0, -20deg) translate3d(0, 0px, 0); } }
+@keyframes fadeInUpSkew {
+  0% {
+    opacity: 0;
+    -o-transform: skew(0, -20deg) translate3d(0, 200px, 0);
+    -ms-transform: skew(0, -20deg) translate3d(0, 200px, 0);
+    -webkit-transform: skew(0, -20deg) translate3d(0, 200px, 0);
+    transform: skew(0, -20deg) translate3d(0, 200px, 0); }
+  100% {
+    opacity: 1;
+    -o-transform: skew(0, -20deg) translate3d(0, 0px, 0);
+    -ms-transform: skew(0, -20deg) translate3d(0, 0px, 0);
+    -webkit-transform: skew(0, -20deg) translate3d(0, 0px, 0);
+    transform: skew(0, -20deg) translate3d(0, 0px, 0); } }
+/*
+ 
+Animation use in _router.scss to animate in/out of the routing system for smoothstate.js
+
+*/
+@-webkit-keyframes routerIn {
+  0% {
+    opacity: 0;
+    -o-transform: scale(0.9);
+    -ms-transform: scale(0.9);
+    -webkit-transform: scale(0.9);
+    transform: scale(0.9); }
+  100% {
+    opacity: 1;
+    -o-transform: scale(1);
+    -ms-transform: scale(1);
+    -webkit-transform: scale(1);
+    transform: scale(1); } }
+@keyframes routerIn {
+  0% {
+    opacity: 0;
+    -o-transform: scale(0.9);
+    -ms-transform: scale(0.9);
+    -webkit-transform: scale(0.9);
+    transform: scale(0.9); }
+  100% {
+    opacity: 1;
+    -o-transform: scale(1);
+    -ms-transform: scale(1);
+    -webkit-transform: scale(1);
+    transform: scale(1); } }
+@-webkit-keyframes routerOut {
+  0% {
+    opacity: 1;
+    -o-transform: scale(1);
+    -ms-transform: scale(1);
+    -webkit-transform: scale(1);
+    transform: scale(1); }
+  100% {
+    opacity: 0;
+    -o-transform: scale(0.9);
+    -ms-transform: scale(0.9);
+    -webkit-transform: scale(0.9);
+    transform: scale(0.9); } }
+@keyframes routerOut {
+  0% {
+    opacity: 1;
+    -o-transform: scale(1);
+    -ms-transform: scale(1);
+    -webkit-transform: scale(1);
+    transform: scale(1); }
+  100% {
+    opacity: 0;
+    -o-transform: scale(0.9);
+    -ms-transform: scale(0.9);
+    -webkit-transform: scale(0.9);
+    transform: scale(0.9); } }
+/*
+
+17/02/2015 | J. Henrotte
+_dev.scss
+Dev mode for the open know project
+SHOULD REMOVE FOR PRODUCTION
+
+*/
+/*
+
+19/04/2015 | J. Henrotte
+© Julien Henrotte - All rights reserved
+_background.scss
+
+*/
+/*
+
+19/04/2015 | J. Henrotte
+© Julien Henrotte - All rights reserved
+_header.scss
+
+*/
+.header {
+  height: 60px;
+  width: 100%;
+  position: fixed;
+  background-color: #383E4E;
+  top: 0; }
+  .header h1 {
+    width: 150px;
+    float: left;
+    padding: 5px 10px; }
+    .header h1 img {
+      width: 100%; }
+  .header--url {
+    width: calc(100% - 150px);
+    float: right; }
+    .header--url input {
+      padding: 10px 50px 10px 100px;
+      border: 0;
+      font-size: 18px;
+      height: 60px;
+      background-color: transparent;
+      width: 90%;
+      float: left;
+      color: white; }
+    .header--url input[type="submit"] {
+      width: 10%;
+      float: right;
+      background-color: #5BC4EE;
+      padding: 0;
+      text-align: center;
+      line-height: 60px;
+      color: white;
+      cursor: pointer; }
+
+/*
+
+19/04/2015 | J. Henrotte
+© Julien Henrotte - All rights reserved
+_content.scss
+
+*/
+.content--element {
+  margin: 0 2rem;
+  display: inline-block;
+  vertical-align: top; }
+.content--title {
+  width: 100%;
+  font-size: 18px;
+  color: white;
+  text-align: center;
+  padding: 1rem .5rem;
+  background-color: #383E4E;
+  border-radius: 3px 3px 0 0; }
+.content--embed {
+  -webkit-border-radius: 3px;
+  border-radius: 3px;
+  -webkit-background-clip: padding-box;
+  -moz-background-clip: padding;
+  background-clip: padding-box;
+  overflow: hidden;
+  background-color: white; }
+  .content--embed--element {
+    width: 100%;
+    height: 100%; }
+
+/*
+
+19/04/2015 | J. Henrotte
+© Julien Henrotte - All rights reserved
+_size.scss
+
+*/
+.device--iphone6plus {
+  width: 414px;
+  height: 736px; }
+
+.device--iphone6 {
+  width: 375px;
+  height: 667px; }
+
+.device--iphone5 {
+  width: 320px;
+  height: 568px; }
+
+.device--iphone4 {
+  width: 320px;
+  height: 480px; }

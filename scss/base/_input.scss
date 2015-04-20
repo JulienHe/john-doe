@@ -1,0 +1,67 @@
+/*
+
+14/03/2015 | J. Henrotte
+© Aroe - All rights reserved
+_input.scss
+Input
+
+*/
+
+/* Input & Textarea */
+
+input, textarea{
+  outline: 0;
+  &.form--error{
+    border-color: $red-color !important;
+    background-color: rgba($red-color, .05);
+  }
+  &.form--accept{
+    border-color: $green-color !important;
+    background-color: rgba($green-color, .05);
+  }
+}
+
+textarea{
+  /* Modal BG 2: */
+  background: #FEFEFE;
+  border: 1px solid $border-color;
+  @include border-radius(4px);
+  width: 100%;
+  resize:none;
+  font-family: $base-family;
+  @include font-size(18px);
+  padding:5px 10px;
+  font-style: italic;
+}
+
+/* Change the placeholder color */
+
+::-webkit-input-placeholder {
+   color: $placeholder-color;
+}
+
+:-moz-placeholder { /* Firefox 18- */
+   color: $placeholder-color;
+}
+
+::-moz-placeholder {  /* Firefox 19+ */
+   color: $placeholder-color;
+}
+
+:-ms-input-placeholder {
+   color: $placeholder-color;
+}
+
+/* When input is focus -> Hide the placeholder */
+input:focus::-webkit-input-placeholder {
+	color:transparent;
+}
+input:focus:-moz-placeholder {
+	color:transparent;
+}
+input:focus::-moz-placeholder {
+	color:transparent;
+}
+input:focus:-ms-input-placeholder {
+	color:transparent;
+}

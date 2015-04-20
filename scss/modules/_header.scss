@@ -1,0 +1,47 @@
+/*
+
+19/04/2015 | J. Henrotte
+© Julien Henrotte - All rights reserved
+_header.scss
+
+*/
+
+.header{
+	height: 60px;
+	width: 100%;
+	position: fixed;
+	background-color: $title-bg;
+	top: 0;
+	h1{
+		width: 150px;
+		float: left;
+		padding:5px 10px;
+		img{
+			width: 100%;
+		}
+	}
+	&--url{
+		width: calc(100% - 150px);
+		float: right;
+		input{
+			padding: 10px 50px 10px 100px;
+			border: 0;
+			font-size: 18px;
+			height: 60px;
+			background-color: transparent;
+			width: 90%;
+			float: left;
+			color: white;
+		}
+		input[type="submit"]{
+			width: 10%;
+			float: right;
+			background-color: $blue-color;
+			padding: 0;
+			text-align: center;
+			line-height: 60px;
+			color: white;
+			cursor: pointer;
+		}
+	}
+}

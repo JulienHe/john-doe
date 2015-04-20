@@ -1,0 +1,33 @@
+/*
+
+19/04/2015 | J. Henrotte
+© Julien Henrotte - All rights reserved
+_content.scss
+
+*/
+
+.content{
+	&--element{
+		margin:0 2rem;
+		display: inline-block;
+		vertical-align: top;
+	}
+	&--title{
+		width: 100%;
+		font-size: 18px;
+		color: white;
+		text-align: center;
+		padding: 1rem .5rem;
+		background-color: $title-bg;
+		border-radius: 3px 3px 0 0;
+	}
+	&--embed{
+		@include border-radius(3px);
+		overflow: hidden;
+		background-color: white;
+		&--element{
+			width: 100%;
+			height: 100%;
+		}
+	}
+}

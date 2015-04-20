@@ -1,0 +1,941 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"marg",
+				"margin-bottom"
+			],
+			[
+				"mar",
+				"margin-left"
+			],
+			[
+				"margin",
+				"margin"
+			],
+			[
+				"back",
+				"background-color"
+			],
+			[
+				"backgrou",
+				"background-color"
+			],
+			[
+				"text",
+				"text-align"
+			],
+			[
+				"font",
+				"font-size"
+			],
+			[
+				"mat",
+				"margin-bottom"
+			],
+			[
+				"margn",
+				"margin"
+			],
+			[
+				"backg",
+				"background-size"
+			],
+			[
+				"font-",
+				"font-weight"
+			],
+			[
+				"ma",
+				"max-width"
+			],
+			[
+				"text-",
+				"text-transform"
+			],
+			[
+				"max-",
+				"max-width"
+			],
+			[
+				"togg",
+				"toggleClass	.toggleClass()"
+			],
+			[
+				"add",
+				"addClass	.addClass()"
+			],
+			[
+				"background",
+				"background-color"
+			],
+			[
+				"cont",
+				"container"
+			],
+			[
+				"te",
+				"text-decoration"
+			],
+			[
+				"padd",
+				"padding"
+			],
+			[
+				"user",
+				"user_photo"
+			],
+			[
+				"dat",
+				"data"
+			],
+			[
+				"date_p",
+				"date_photo"
+			],
+			[
+				"fun",
+				"function"
+			],
+			[
+				"bo",
+				"bottom"
+			],
+			[
+				"pad",
+				"padding"
+			],
+			[
+				"max",
+				"max-width"
+			],
+			[
+				"ba",
+				"base-color"
+			],
+			[
+				"inin",
+				"inline-block"
+			],
+			[
+				"backgroi",
+				"background-position"
+			],
+			[
+				"tex",
+				"text-transform"
+			],
+			[
+				"backgroun",
+				"background-color"
+			],
+			[
+				"fon",
+				"font-size"
+			],
+			[
+				"z-",
+				"z-index"
+			],
+			[
+				"min",
+				"min-height"
+			],
+			[
+				"wid",
+				"width"
+			],
+			[
+				"padding",
+				"padding"
+			],
+			[
+				"paddi",
+				"padding"
+			],
+			[
+				"backgr",
+				"background-color"
+			],
+			[
+				"fot",
+				"font-size"
+			],
+			[
+				"padding-",
+				"padding-left"
+			],
+			[
+				"pos",
+				"position"
+			],
+			[
+				"inli",
+				"inline-block"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 67.0,
+		"last_filter": "install",
+		"selected_items":
+		[
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"instal",
+				"Package Control: Install Package"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"inst",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 467.0
+	},
+	"console":
+	{
+		"height": 126.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = 'eb2297e1a458f27d836c04bb0cbaf282' + 'd0e7a3098092775ccb37ca9d6b2e4b7d'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/Users/julienhe/Documents/Johndoe"
+	],
+	"file_history":
+	[
+		"/Users/julienhe/Documents/Aroe/Clients/figo/web/index.html",
+		"/Users/julienhe/Documents/Aroe/Clients/figo/web/js/salvatorre.js",
+		"/Users/julienhe/Documents/Aroe/Clients/figo/web/scss/modules/_header.scss",
+		"/Users/julienhe/Documents/Aroe/Clients/figo/web/scss/base/_vars.scss",
+		"/Users/julienhe/Documents/Aroe/Clients/figo/web/scss/modules/_background.scss",
+		"/Users/julienhe/Documents/Aroe/Clients/Welcome Spring/welcomespringweb/instafeed/js/crawler.js",
+		"/Users/julienhe/Documents/Aroe/Clients/figo/web/js/instafeed.js",
+		"/Users/julienhe/Documents/Aroe/Clients/figo/web/scss/base/_base.scss",
+		"/Users/julienhe/Documents/Aroe/Clients/Welcome Spring/welcomespringweb/kit/two-kids-on-holidays.kit",
+		"/Users/julienhe/Documents/Aroe/Clients/Welcome Spring/welcomespringweb/kit/village.kit",
+		"/Users/julienhe/Documents/Aroe/Clients/Welcome Spring/welcomespringweb/kit/_cheese.kit",
+		"/Users/julienhe/Documents/Aroe/Clients/Welcome Spring/welcomespringweb/kit/azerty.kit",
+		"/Users/julienhe/Documents/Aroe/Clients/Welcome Spring/welcomespringweb/kit/benevoles.kit",
+		"/Users/julienhe/Documents/Aroe/Clients/Welcome Spring/welcomespringweb/kit/big-moustache-bandits.kit",
+		"/Users/julienhe/Documents/Aroe/Clients/Welcome Spring/welcomespringweb/kit/blackmirrors.kit",
+		"/Users/julienhe/Documents/Aroe/Clients/Welcome Spring/welcomespringweb/kit/freakilabala.kit",
+		"/Users/julienhe/Documents/Aroe/Clients/Welcome Spring/welcomespringweb/kit/ganz.kit",
+		"/Users/julienhe/Documents/Aroe/Clients/Welcome Spring/welcomespringweb/kit/in-lakesh.kit",
+		"/Users/julienhe/Documents/Aroe/Clients/Welcome Spring/welcomespringweb/kit/kotemix.kit",
+		"/Users/julienhe/Documents/Aroe/Clients/Welcome Spring/welcomespringweb/kit/lorducommun.kit",
+		"/Users/julienhe/Documents/Aroe/Clients/Welcome Spring/welcomespringweb/kit/reggaebus.kit",
+		"/Users/julienhe/Documents/Aroe/Clients/Welcome Spring/welcomespringweb/kit/robbing-millions.kit",
+		"/Users/julienhe/Documents/Aroe/Clients/Welcome Spring/welcomespringweb/kit/salutcestcool.kit",
+		"/Users/julienhe/Documents/Aroe/Clients/Welcome Spring/welcomespringweb/kit/scylla.kit",
+		"/Users/julienhe/Documents/Aroe/Clients/Welcome Spring/welcomespringweb/kit/stereoclip.kit",
+		"/Users/julienhe/Documents/Aroe/Clients/Welcome Spring/welcomespringweb/kit/teme-tan.kit",
+		"/Users/julienhe/Documents/Aroe/Clients/Welcome Spring/welcomespringweb/kit/_artistes.kit",
+		"/Users/julienhe/Documents/Aroe/Clients/Welcome Spring/welcomespringweb/scss/modules/_title.scss",
+		"/Users/julienhe/Documents/Aroe/Clients/Welcome Spring/welcomespringweb/kit/_sponsors.kit",
+		"/Users/julienhe/Documents/Aroe/Clients/Welcome Spring/welcomespringweb/two-kids-on-holidays.html",
+		"/Users/julienhe/Documents/Aroe/Clients/Welcome Spring/welcomespringweb/scss/pages/_home.scss",
+		"/Users/julienhe/Documents/Aroe/Clients/Welcome Spring/welcomespringweb/scss/application.scss",
+		"/Users/julienhe/Documents/Aroe/Clients/Welcome Spring/welcomespringweb/kit/_header.kit",
+		"/Users/julienhe/Documents/Aroe/Clients/Welcome Spring/welcomespringweb/kit/scenes.kit",
+		"/Users/julienhe/Documents/Aroe/Clients/Welcome Spring/welcomespringweb/kit/_head.kit",
+		"/Users/julienhe/Documents/Aroe/Clients/Welcome Spring/welcomespringweb/kit/welcome-bw.kit",
+		"/Users/julienhe/Documents/Aroe/Clients/Welcome Spring/welcomespringweb/scss/modules/_header.scss",
+		"/Users/julienhe/Documents/Aroe/Clients/Welcome Spring/welcomespringweb/kit/_vars.kit",
+		"/Users/julienhe/Documents/Aroe/Clients/Welcome Spring/welcomespringweb/kit/index.kit",
+		"/Users/julienhe/Documents/Aroe/Clients/Welcome Spring/welcomespringweb/scss/pages/_scenes.scss",
+		"/Users/julienhe/Documents/Aroe/Clients/Welcome Spring/welcomespringweb/scss/modules/_background.scss",
+		"/Users/julienhe/Documents/Aroe/Clients/Welcome Spring/welcomespringweb/scss/modules/_loading.scss",
+		"/Users/julienhe/Documents/Aroe/Clients/Welcome Spring/welcomespringweb/kit/_loading.kit",
+		"/Users/julienhe/Documents/Aroe/Clients/Welcome Spring/welcomespringweb/css/application.css",
+		"/Users/julienhe/Documents/Aroe/Clients/Welcome Spring/welcomespringweb/kit/contact.kit",
+		"/Users/julienhe/Documents/Aroe/Clients/Welcome Spring/welcomespringweb/kit/_footer.kit",
+		"/Users/julienhe/Documents/Aroe/Clients/Welcome Spring/welcomespringweb/scss/modules/_sponsors.scss",
+		"/Users/julienhe/Documents/Aroe/Clients/Welcome Spring/welcomespringweb/scss/pages/_artiste.scss",
+		"/Users/julienhe/Documents/Aroe/Clients/Welcome Spring/welcomespringweb/scss/modules/_content.scss",
+		"/Users/julienhe/Documents/Aroe/Clients/Welcome Spring/welcomespringweb/scss/pages/_cheese.scss",
+		"/Users/julienhe/Documents/Aroe/Clients/Welcome Spring/welcomespringweb/js/main.js",
+		"/Users/julienhe/Documents/Aroe/Clients/Welcome Spring/welcomespringweb/php/connexion.php",
+		"/Users/julienhe/Documents/Aroe/Clients/Welcome Spring/welcomespringweb/scss/base/_mixins.scss",
+		"/Users/julienhe/Documents/Aroe/Clients/Welcome Spring/welcomespringweb/php/post_instafeed.php",
+		"/Users/julienhe/Documents/Aroe/Clients/Welcome Spring/welcomespringweb/php/feed.php",
+		"/Users/julienhe/Documents/Aroe/Clients/Welcome Spring/welcomespringweb/js/vendors/masonry.pkgd.js",
+		"/Users/julienhe/Documents/Aroe/Clients/Welcome Spring/welcomespringweb/js/analytics.js",
+		"/Users/julienhe/Documents/Aroe/Clients/Welcome Spring/welcomespringweb/kit/_end.kit",
+		"/Users/julienhe/Documents/Aroe/Clients/Welcome Spring/welcomespringweb/js/vendors/img.js",
+		"/Users/julienhe/Documents/Aroe/Clients/Welcome Spring/welcomespringweb/kit/big-bandits-moustache.kit",
+		"/Users/julienhe/Documents/Aroe/Clients/Welcome Spring/welcomespringweb/scss/base/_animation.scss",
+		"/Users/julienhe/Documents/Aroe/Clients/Welcome Spring/welcomespringweb/.htaccess",
+		"/Users/julienhe/Documents/Aroe/Clients/Welcome Spring/welcomespringweb/scss/pages/_artistes.scss",
+		"/Users/julienhe/Documents/Aroe/Clients/Welcome Spring/welcomespringweb/kit/_svg-title.kit",
+		"/Users/julienhe/Documents/Aroe/Clients/Welcome Spring/welcomespringweb/kit/_svg-title-smaller.kit",
+		"/Users/julienhe/Documents/Aroe/Clients/Welcome Spring/welcomespringweb/kotemix.html",
+		"/Users/julienhe/Documents/Aroe/Clients/Welcome Spring/welcomespringweb/lorducommun.html",
+		"/Users/julienhe/Documents/Aroe/Clients/Welcome Spring/welcomespringweb/salutcestcool.html",
+		"/Users/julienhe/Documents/Aroe/Clients/Welcome Spring/welcomespringweb/scylla.html",
+		"/Users/julienhe/Documents/Aroe/Clients/Welcome Spring/welcomespringweb/stereoclip.html",
+		"/Users/julienhe/Documents/Aroe/Clients/Welcome Spring/welcomespringweb/teme-tan.html",
+		"/Users/julienhe/Documents/Aroe/Clients/Welcome Spring/welcomespringweb/scss/base/_base.scss",
+		"/Users/julienhe/Documents/Aroe/Clients/Welcome Spring/welcomespringweb/scenes.html",
+		"/Users/julienhe/Documents/Aroe/Clients/Welcome Spring/welcomespringweb/scss/base/_vars.scss",
+		"/Users/julienhe/Documents/Aroe/Clients/Welcome Spring/welcomespringweb/scss/base/_placeholder.scss",
+		"/Users/julienhe/Documents/Aroe/Clients/Welcome Spring/welcomespringweb/scss/pages/_contact.scss",
+		"/Users/julienhe/Documents/Aroe/Clients/Welcome Spring/welcomespringweb/scss/modules/_router.scss",
+		"/Users/julienhe/Documents/Aroe/Clients/Welcome Spring/welcomespringweb/instafeed/moderate_instagram.html",
+		"/Users/julienhe/Documents/Aroe/Clients/Welcome Spring/welcomespringweb/php/crawler_instafeed.php",
+		"/Users/julienhe/Documents/Aroe/Clients/Welcome Spring/welcomespringweb/instafeed/crawler_instagram.html",
+		"/Users/julienhe/Documents/Aroe/Clients/Welcome Spring/welcomespringweb/php/show_instafeed.php",
+		"/Users/julienhe/Documents/Aroe/Clients/Welcome Spring/welcomespringweb/php/moderate_instafeed.php",
+		"/Users/julienhe/Documents/Aroe/Clients/Welcome Spring/welcomespringweb/instafeed/show_instagram.html",
+		"/Users/julienhe/Documents/Aroe/Clients/Welcome Spring/welcomespringweb/instafeed/js/moderate.js",
+		"/Users/julienhe/Documents/Aroe/Clients/Welcome Spring/welcomespringweb/php/update_instafeed.php",
+		"/Users/julienhe/Documents/Aroe/Clients/Welcome Spring/welcomespringweb/instafeed/js/main.min.js",
+		"/Users/julienhe/Documents/Aroe/Clients/Welcome Spring/welcomespringweb/js/vendors/jquery.smoothState.js-master/jquery.smoothState.js",
+		"/Users/julienhe/Documents/Aroe/Clients/Welcome Spring/welcomespringweb/scss/modules/_footer.scss",
+		"/Users/julienhe/Documents/Aroe/Clients/Welcome Spring/welcomespringweb/scss/_dev.scss",
+		"/Users/julienhe/Documents/Aroe/Clients/Welcome Spring/welcomespringweb/scss/vendors/swiper.scss",
+		"/Users/julienhe/Desktop/index.html",
+		"/Users/julienhe/Documents/Aroe/Clients/Welcome Spring/welcomespringweb/scss/pages/_benevoles.scss",
+		"/Users/julienhe/Documents/Aroe/Clients/Welcome Spring/welcomespringweb/benevoles.html",
+		"/Users/julienhe/Documents/Aroe/Clients/Welcome Spring/welcomespringweb/scss/base/_fontIcons.scss",
+		"/Users/julienhe/Documents/Aroe/Clients/Welcome Spring/welcomespringweb/scss/base/_fonts.scss",
+		"/Users/julienhe/Documents/Aroe/Clients/Welcome Spring/welcomespringweb/js/swiper.min.js",
+		"/Users/julienhe/Documents/Aroe/Clients/Welcome Spring/welcomespringweb/contact.html",
+		"/Users/julienhe/Documents/Aroe/Clients/Welcome Spring/Site web/typography-2.html",
+		"/Users/julienhe/Documents/Aroe/Clients/Welcome Spring/welcomespringweb/artistes.html",
+		"/Users/julienhe/Documents/Aroe/Clients/Welcome Spring/welcomespringweb/scss/modules/_contact.scss",
+		"/Users/julienhe/Documents/Aroe/Clients/Welcome Spring/welcomespringweb/config.codekit",
+		"/Users/julienhe/Documents/Aroe/Clients/Welcome Spring/welcomespringweb/scss/base/_typography.scss",
+		"/Users/julienhe/Documents/Aroe/Clients/Welcome Spring/welcomespringweb/kit/welcome-bw.html",
+		"/Users/julienhe/Documents/Aroe/Clients/Welcome Spring/welcomespringweb/js/main.min.js",
+		"/Users/julienhe/Documents/Aroe/Clients/Welcome Spring/welcomespringweb/kit/index.html",
+		"/Users/julienhe/Documents/Aroe/Clients/Welcome Spring/welcomespringweb/scss/base/_button.scss",
+		"/Users/julienhe/Documents/Aroe/Clients/Welcome Spring/welcomespringweb/js/vendors/brick-by-brick.min.js",
+		"/Users/julienhe/Documents/Aroe/Clients/Welcome Spring/welcomespringweb/cheese.html",
+		"/Users/julienhe/Library/Application Support/Sublime Text 3/Packages/User/Default (OSX).sublime-keymap",
+		"/Users/julienhe/Documents/Aroe/Clients/Welcome Spring/welcomespringweb/css/print.css",
+		"/Users/julienhe/Documents/Aroe/Clients/Welcome Spring/welcomespringweb/scss/vendors/_salvatore.scss"
+	],
+	"find":
+	{
+		"height": 25.0
+	},
+	"find_in_files":
+	{
+		"height": 93.0,
+		"where_history":
+		[
+			"/Users/julienhe/Documents/Aroe/Clients/Welcome Spring/welcomespringweb/kit",
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"header--navigation",
+			"2015 --><!-- $artiste = <a href=\"artistes\" class=\"selected\">Artistes</a> -->",
+			"<!-- $artiste = <a href=\"artistes.html\" class=\"selected\">Artistes</a> -->",
+			"2015 ; -->",
+			"cp-text",
+			"resize",
+			"stereoclip",
+			"&nbsp;",
+			"--list--element",
+			"<header class=\"artiste--header\">",
+			"--list--element",
+			"--left",
+			"--list--element",
+			"fadeInUp",
+			"artiste--video",
+			"video",
+			"--list--element",
+			"        <ul class=\"content--thecontent--list\">\n            <li class=\"content--thecontent\">",
+			"--list--element",
+			"            </li>\n        </ul>",
+			"        <ul class=\"content--thecontent--list\">\n            <li class=\"content--thecontent\">",
+			"--list--element",
+			"thecont",
+			"fadeInUpSkew",
+			"@include transform(skew(0, -20deg));",
+			"animation",
+			"transi",
+			"transform",
+			"skew",
+			"swke",
+			"transition",
+			"maso",
+			".html",
+			"stereoclip",
+			"teme-tan",
+			"Témé Tan",
+			"ganz",
+			"\"cursor\"",
+			"\"cursors\"",
+			"wow fadeInUp",
+			"skew",
+			"artistes--list--element\"",
+			".html",
+			"smaller",
+			"blackmirrors.jpg",
+			"Salut c'est cool's",
+			"Salut c'est cool's\nSalut c'est cool's\nSalut c'est cool's\nSalut c'est cool's",
+			"$container",
+			"0,",
+			"translate(",
+			"translate",
+			"keyframes(",
+			"polylion",
+			".loading",
+			"m-scene",
+			"polygon",
+			"path",
+			"transition",
+			"colortext",
+			"squiggle",
+			"Calque_1",
+			"title--page",
+			"fit",
+			"body"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"2015 --><!-- $artiste = <a href=\"artistes\" class=\"selected\">Artistes</a> -->",
+			"2015 -->",
+			"<header class=\"artiste--header wow fadeInUpSkew\">"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 25.0
+	},
+	"input":
+	{
+		"height": 33.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "johndoe.sublime-project",
+	"replace":
+	{
+		"height": 46.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"base",
+				"scss/base/_base.scss"
+			],
+			[
+				"main",
+				"js/main.js"
+			],
+			[
+				"sec",
+				"scss/modules/_section.scss"
+			],
+			[
+				"appli",
+				"scss/application.scss"
+			],
+			[
+				"inde",
+				"kit/index.kit"
+			],
+			[
+				"comme",
+				"kit/commentsyrendre.kit"
+			],
+			[
+				"scen",
+				"kit/scenes.kit"
+			],
+			[
+				"sponso",
+				"kit/_sponsors.kit"
+			],
+			[
+				"hta",
+				"admin/.htaccess"
+			],
+			[
+				"font",
+				"scss/base/_fontIcons.scss"
+			],
+			[
+				"vars",
+				"scss/base/_vars.scss"
+			],
+			[
+				"header",
+				"scss/modules/_header.scss"
+			],
+			[
+				"appl",
+				"scss/application.scss"
+			],
+			[
+				"spons",
+				"kit/_sponsors.kit"
+			],
+			[
+				"mai",
+				"js/main.js"
+			],
+			[
+				"chee",
+				"kit/_cheese.kit"
+			],
+			[
+				"artiste",
+				"scss/pages/_artistes.scss"
+			],
+			[
+				"head",
+				"kit/_head.kit"
+			],
+			[
+				"title",
+				"scss/modules/_title.scss"
+			],
+			[
+				"two",
+				"kit/two-kids-on-holidays.kit"
+			],
+			[
+				"spo",
+				"kit/_sponsors.kit"
+			],
+			[
+				"home",
+				"scss/pages/_home.scss"
+			],
+			[
+				"bene",
+				"kit/benevoles.kit"
+			],
+			[
+				"scenes",
+				"kit/scenes.kit"
+			],
+			[
+				"welcome",
+				"kit/welcome-bw.kit"
+			],
+			[
+				"he",
+				"kit/_head.kit"
+			],
+			[
+				"arti",
+				"kit/_artistes.kit"
+			],
+			[
+				"hader",
+				"kit/_header.kit"
+			],
+			[
+				"loading",
+				"scss/modules/_loading.scss"
+			],
+			[
+				"loadi",
+				"kit/_loading.kit"
+			],
+			[
+				"backgr",
+				"scss/modules/_background.scss"
+			],
+			[
+				"header.s",
+				"scss/modules/_header.scss"
+			],
+			[
+				"robing",
+				"kit/robbing-millions.kit"
+			],
+			[
+				"mixin",
+				"scss/base/_mixins.scss"
+			],
+			[
+				"conn",
+				"php/connexion.php"
+			],
+			[
+				"post_in",
+				"php/post_instafeed.php"
+			],
+			[
+				"feed",
+				"php/feed.php"
+			],
+			[
+				"anal",
+				"js/analytics.js"
+			],
+			[
+				"var",
+				"kit/_vars.kit"
+			],
+			[
+				"cheese",
+				"scss/pages/_cheese.scss"
+			],
+			[
+				"cone",
+				"scss/modules/_content.scss"
+			],
+			[
+				"sce",
+				"kit/scenes.kit"
+			],
+			[
+				"index",
+				"kit/index.kit"
+			],
+			[
+				"background",
+				"scss/modules/_background.scss"
+			],
+			[
+				"end",
+				"kit/_end.kit"
+			],
+			[
+				"sponsors",
+				"kit/_sponsors.kit"
+			],
+			[
+				"ganz",
+				"kit/ganz.kit"
+			],
+			[
+				"artistes",
+				"scss/pages/_artistes.scss"
+			],
+			[
+				"anima",
+				"scss/base/_animation.scss"
+			],
+			[
+				"svt",
+				"kit/_svg-title.kit"
+			],
+			[
+				"svg",
+				"kit/_svg-title.kit"
+			],
+			[
+				"artist",
+				"kit/_artistes.kit"
+			],
+			[
+				"commun",
+				"kit/lorducommun.kit"
+			],
+			[
+				"svg-",
+				"kit/_svg-title.kit"
+			],
+			[
+				"artis",
+				"kit/_artistes.kit"
+			],
+			[
+				"load",
+				"scss/modules/_loading.scss"
+			],
+			[
+				"content",
+				"scss/modules/_content.scss"
+			],
+			[
+				"be",
+				"kit/benevoles.kit"
+			],
+			[
+				"conta",
+				"kit/contact.kit"
+			],
+			[
+				"applica",
+				"css/application.css"
+			],
+			[
+				"post_",
+				"php/post_instafeed.php"
+			],
+			[
+				"crawler",
+				"instafeed/js/crawler.js"
+			],
+			[
+				"contac",
+				"scss/pages/_contact.scss"
+			],
+			[
+				"contact",
+				"kit/contact.kit"
+			],
+			[
+				"benevo",
+				"kit/benevoles.kit"
+			],
+			[
+				"footer",
+				"kit/_footer.kit"
+			],
+			[
+				"place",
+				"scss/base/_placeholder.scss"
+			],
+			[
+				"back",
+				"scss/modules/_background.scss"
+			],
+			[
+				"router",
+				"scss/modules/_router.scss"
+			],
+			[
+				"vars.",
+				"scss/base/_vars.scss"
+			],
+			[
+				"header.sc",
+				"scss/modules/_header.scss"
+			],
+			[
+				"app",
+				"css/application.css"
+			],
+			[
+				"kot",
+				"kit/kotemix.kit"
+			],
+			[
+				"ani",
+				"scss/base/_animation.scss"
+			],
+			[
+				"rout",
+				"scss/modules/_router.scss"
+			],
+			[
+				"bac",
+				"scss/modules/_background.scss"
+			],
+			[
+				"backgrou",
+				"scss/modules/_background.scss"
+			],
+			[
+				"blackmir",
+				"kit/blackmirrors.kit"
+			],
+			[
+				"conne",
+				"php/connexion.php"
+			],
+			[
+				"cont",
+				"kit/contact.kit"
+			],
+			[
+				"foot",
+				"kit/_footer.kit"
+			],
+			[
+				"che",
+				"kit/_cheese.kit"
+			],
+			[
+				"hea",
+				"kit/_header.kit"
+			],
+			[
+				"ba",
+				"scss/modules/_background.scss"
+			],
+			[
+				"backg",
+				"scss/modules/_background.scss"
+			],
+			[
+				"chess",
+				"scss/pages/_cheese.scss"
+			],
+			[
+				"loadin",
+				"kit/_loading.kit"
+			],
+			[
+				"dev",
+				"scss/_dev.scss"
+			],
+			[
+				"fonti",
+				"scss/base/_fontIcons.scss"
+			],
+			[
+				"swiper",
+				"scss/vendors/swiper.scss"
+			],
+			[
+				"con",
+				"scss/modules/_content.scss"
+			],
+			[
+				"content.",
+				"scss/modules/_content.scss"
+			],
+			[
+				"scene",
+				"kit/scenes.kit"
+			],
+			[
+				"conent",
+				"scss/modules/_content.scss"
+			],
+			[
+				"title.",
+				"scss/modules/_title.scss"
+			],
+			[
+				"placeho",
+				"scss/base/_placeholder.scss"
+			],
+			[
+				"cheese.",
+				"scss/pages/_cheese.scss"
+			],
+			[
+				"chees",
+				"scss/pages/_cheese.scss"
+			],
+			[
+				"end.",
+				"kit/_end.kit"
+			],
+			[
+				"vars.sc",
+				"scss/base/_vars.scss"
+			],
+			[
+				"endk",
+				"kit/_end.kit"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 225.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

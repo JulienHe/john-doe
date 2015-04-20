@@ -1,0 +1,116 @@
+/*
+
+28/03/2015 | J. Henrotte
+© Aroe - All rights reserved
+_animation.scss
+Mixins for the Welcome Spring Festival
+
+*/
+
+/* 
+
+Animate.css - http://daneden.me/animate
+Licensed under the MIT license - http://opensource.org/licenses/MIT
+Copyright (c) 2015 Daniel Eden
+
+*/
+
+.wow:first-child {
+	visibility: hidden;
+}
+
+.animated {
+	animation-duration: 1s;
+	animation-fill-mode: both;
+	-webkit-animation-duration: 1s;
+	-webkit-animation-fill-mode: both;
+}
+
+.animated.infinite {
+	animation-iteration-count: infinite;
+	-webkit-animation-iteration-count: infinite;
+}
+
+.animated.hinge {
+	animation-duration: 2s;
+	-webkit-animation-duration: 2s;
+}
+
+.animated.bounceIn,
+.animated.bounceOut {
+	animation-duration: .75s;
+	-webkit-animation-duration: .75s;
+}
+
+.animated.flipOutX,
+.animated.flipOutY {
+	animation-duration: .75s;
+	-webkit-animation-duration: .75s;
+}
+
+
+.fadeInUp {
+	animation-name: fadeInUp;
+	-webkit-animation-name: fadeInUp;
+}
+
+@include keyframes(fadeInUp) {
+	0% {
+		opacity: 0;
+		transform: translate3d(0, 200px, 0);
+	}
+
+	100% {
+		opacity: 1;
+		transform: none;
+	}
+}
+
+.fadeInUpSkew {
+	animation-name: fadeInUp;
+	-webkit-animation-name: fadeInUp;
+	@include screen-medium {
+		animation-name: fadeInUpSkew;
+		-webkit-animation-name: fadeInUpSkew;
+	}
+}
+
+@include keyframes(fadeInUpSkew) {
+		0% {
+			opacity: 0;
+			@include transform(skew(0, -20deg) translate3d(0, 200px, 0));
+		}
+
+		100% {
+			opacity: 1;
+			@include transform(skew(0, -20deg) translate3d(0, 0px, 0));
+		}
+}
+
+/*
+ 
+Animation use in _router.scss to animate in/out of the routing system for smoothstate.js
+
+*/
+
+@include keyframes(routerIn) {
+	0% { 
+		opacity: 0;
+		@include transform(scale(.9));
+	}
+	100% { 
+		opacity: 1;
+		@include transform(scale(1));
+	}
+}
+
+@include keyframes(routerOut) {
+	0% { 
+		opacity: 1;
+		@include transform(scale(1));
+	}
+	100% { 
+		opacity: 0;
+		@include transform(scale(.9));
+	}
+}

@@ -1,0 +1,18 @@
+/*
+
+19/04/2015 | J. Henrotte
+© Julien Henrotte - All rights reserved
+_size.scss
+
+*/
+
+$size-device-list: 'iphone6plus', 'iphone6', 'iphone5', 'iphone4';
+$size-device-width: 414px, 375px, 320px, 320px;
+$size-device-height: 736px, 667px, 568px, 480px;
+@each $size-device-list-element in $size-device-list {
+    $i: index($size-device-list, $size-device-list-element);
+    .device--#{$size-device-list-element} {
+        width: nth($size-device-width, $i);
+        height: nth($size-device-height, $i);
+    }
+}

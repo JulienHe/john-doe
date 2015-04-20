@@ -1,0 +1,71 @@
+/*
+
+14/03/2015 | J. Henrotte
+© Aroe - All rights reserved
+_base.scss
+Basic reset for the Welcome Spring Festival
+
+*/
+
+/* Border box code to manage sizes */
+
+@import url(http://fonts.googleapis.com/css?family=Maven+Pro:400,500,700,900);
+@import url(http://fonts.googleapis.com/css?family=Montserrat);
+
+body{
+  font-family: 'Montserrat', sans-serif;
+  background-color: $base-color;
+  padding-top: 100px;
+}
+
+h1, h2, h3, h4{
+  font-family: 'Montserrat', sans-serif;
+}
+
+input{
+  font-family: 'Montserrat', sans-serif; 
+}
+
+*,
+:after,
+:before {
+  -moz-box-sizing: border-box;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+  box-sizing: border-box;
+  word-wrap: break-word;
+  outline: 0;
+}
+
+hr{
+  border:0;
+  border-top:1px solid $border-color;
+  margin: 10px 0;
+}
+
+a{
+    text-decoration: none;
+}
+
+/* Selection color */
+
+::-moz-selection { /* Code for Firefox */
+    color: $base-color;
+    background: $background-color;
+}
+
+::selection {
+    color: $base-color;
+    background: $background-color;
+}
+
+.wrapper{
+    width: 100%;
+    max-width : 1140px;
+    padding: 10px;
+    margin: 0 auto;
+    clear: both;
+}
+
+.overflow--hide{
+  overflow: hidden;
+}

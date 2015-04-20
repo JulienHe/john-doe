@@ -1,0 +1,36 @@
+/*
+
+14/03/2015 | J. Henrotte
+© Aroe - All rights reserved
+_placeholder.scss
+Placeholders for the Welcome Spring Festival
+
+*/
+
+%clearfix:before,
+%clearfix:after {
+	content: '';
+	display: table;
+}
+
+%clearfix:after {
+	clear: both;
+}
+
+%full--size{
+	position: absolute;
+	top:0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+}
+
+%ligne-oblique{
+	position: absolute;
+	height: 1px;
+	top:2px;
+    z-index: -1;
+	left: 50%;
+	content: "";
+	@include transform(rotate(#{-20}deg) translate(-50%, 0));
+}

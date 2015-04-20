@@ -1,0 +1,22 @@
+/*
+
+14/03/2015 | J. Henrotte
+© Aroe - All rights reserved
+_functions.scss
+Functions for the Welcome Spring Festival
+
+*/
+
+
+/*
+
+	Function to calculate font-size in REM
+	Usage :
+		font-size: calculateRem(value);
+
+*/
+
+@function calculateRem($size) {
+  $remSize: $size / 16px;
+  @return #{$remSize}rem;
+}

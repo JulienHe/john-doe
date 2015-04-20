@@ -1,0 +1,42 @@
+/*
+
+14/03/2015 | J. Henrotte
+© Aroe - All rights reserved
+_vars.scss
+Variables for the the Welcome Spring Festival
+
+*/
+
+
+// Colors
+
+$base-color        :     #1E2538;
+$title-color       :     #222629;
+$text-color        :     #8C8C8C;
+$background-color  :     #000000;
+$border-color      : 	 $base-color;
+$border-black-color:     #333333;
+$placeholder-color :     #AAADB4;
+$title-bg		   :     #383E4E;
+
+
+$red-color         :     #F94747;
+$green-color       :     #34CB60;
+$blue-color        :     #5BC4EE;
+$yellow-color      :     #FFBB42;
+$black-color       :     #333333;
+$base-color--light :     #718492;
+$grey-color        :     #A9A9A9;
+
+$linkedin-color    :     #007AB6;
+$twitter-color     :     #64CCF1;
+// Grid
+
+$screen-small      : 	 30em;
+$screen-med        : 	 44em;
+$screen-large      : 	 62em;
+$screen-xlarge     : 	 82em;
+$screen-max-size   :   1140px;
+
+$facettes-size     :   340px;
+$resource-size     :   680px;
