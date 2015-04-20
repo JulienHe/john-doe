@@ -35,6 +35,7 @@ $(document).ready(function (){
 		element = list[i];
 			(function (counter) {
 				console.log(element);
+				//C'est ici que ça foire :(
 				element.contentWindow.onscroll = function(){
 					var scroolTopPix = element.contentWindow.document.body.scrollTop;
 					console.log(element);
