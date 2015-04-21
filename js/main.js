@@ -32,8 +32,7 @@ $(document).ready(function (){
 
 	list = document.getElementsByClassName("content--embed--element")
 	for (var i = 0; i < list.length; i++) {
-		element = list[i];
-			(function (counter) {
+			(function (element) {
 				console.log(element);
 				//C'est ici que ça foire :(
 				element.contentWindow.onscroll = function(){
@@ -42,7 +41,7 @@ $(document).ready(function (){
 					$('.content--embed--element').contents().find('body').scrollTop(scroolTopPix);
 				}
 			}
-		)(i)
+		)(list[i])
 	}
 
 	//attachScrool();
